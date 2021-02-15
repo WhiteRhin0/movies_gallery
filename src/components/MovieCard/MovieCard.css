@@ -1,0 +1,23 @@
+.card {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.card-image {
+  position: relative;
+}
+
+.card-image img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.favorite {
+  display: block;
+  position: absolute;
+  right: 12px;
+}
+
+.media-content {
+  text-align: center;  
+}
