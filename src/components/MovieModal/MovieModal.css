@@ -8,11 +8,6 @@
   position: fixed;
   top: 0;
   left: 0;
-  transform: scale(0);
-}
-
-.modal.active {
-  transform: scale(1);
 }
 
 .modal__content {
