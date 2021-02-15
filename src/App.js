@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
-import { getMovies, getMovieDetails } from './api/movies';
+import { getMovies } from './api/movies';
 import { MoviesGallery } from './components/MoviesGallery';
 
 

@@ -6,7 +6,7 @@ import { MovieModal } from '../MovieModal';
 
 export const MoviesGallery = ({movies}) => {
   const [modalActive, setModalActive] = useState(false);
-  const [selectedMovie, setSelectedMovie] = ({});
+  // const [selectedMovie, setSelectedMovie] = ({});
 
   return (
     <>
@@ -21,7 +21,6 @@ export const MoviesGallery = ({movies}) => {
     </div>
 
     <MovieModal
-      selectedMovie={selectedMovie}
       active={modalActive}
       setActive={setModalActive}
     />

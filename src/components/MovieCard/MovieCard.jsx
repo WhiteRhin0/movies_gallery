@@ -1,19 +1,12 @@
 import React from 'react';
 
 import './MovieCard.css';
-import { getMovieDetails } from '../../api/movies';
 
-export const MovieCard = ({setSelectedMovie, setActive, name, id, img, year }) => {
-  const setMovie = async (movieId) => {
-    const selectedMovie = await getMovieDetails(movieId);
-
-    setSelectedMovie(selectedMovie);
-  }
+export const MovieCard = ({setActive, name, img, year }) => {
 
   return (
     <div className="card" onClick={() => {
       setActive(true);
-      setMovie(id);
     }}>
       {(
         <>
