@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './MovieCard.css';
-import { getMovieDetails } from '../../api/movies';
 
 export const MovieCard = ({setActive, name, img, year }) => {
 
